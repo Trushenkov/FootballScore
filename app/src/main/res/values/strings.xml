@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Football Score</string>
+    <string name="second_dot">:</string>
+    <string name="spartak">Спартак</string>
+    <string name="lokomotiv">Локомотив</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="score_of_match">Счет матча</string>
+    <string name="clear_score">Обнулить счёт</string>
+</resources>
