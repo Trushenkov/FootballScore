@@ -1,12 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Football Score</string>
     <string name="second_dot">:</string>
-    <string name="spartak">Спартак</string>
-    <string name="lokomotiv">Локомотив</string>
-
-    <string name="title_activity_fullscreen">FullscreenActivity</string>
-    <string name="dummy_button">Dummy Button</string>
-    <string name="dummy_content">DUMMY\nCONTENT</string>
-    <string name="score_of_match">Счет матча</string>
-    <string name="clear_score">Обнулить счёт</string>
+    <string name="spartak">FC SPARTAK</string>
+    <string name="lokomotiv">FC LOKOMOTIV</string>
+    <string name="score_of_match">The score of match</string>
+    <string name="clear_score">Clear score</string>
+    <string name="image_of_spartak">Image of Spartak</string>
+    <string name="image_of_lokomotiv">Image of Lokomotiv</string>
 </resources>
