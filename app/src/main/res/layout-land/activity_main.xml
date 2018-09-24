@@ -10,7 +10,8 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        tools:ignore="UselessParent">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -30,7 +31,8 @@
                     android:layout_height="@dimen/height_100"
                     android:layout_marginEnd="@dimen/margin_for_spartak_logo"
                     android:layout_marginRight="@dimen/margin_for_spartak_logo"
-                    android:background="@mipmap/fk_spartak" />
+                    android:background="@mipmap/fk_spartak"
+                    android:contentDescription="@string/image_of_spartak" />
 
                 <ImageView
                     android:id="@+id/lokomotiv_logotype"
@@ -38,7 +40,8 @@
                     android:layout_height="@dimen/height_100"
                     android:layout_marginLeft="@dimen/margin_for_lokomotiv_logo"
                     android:layout_marginStart="@dimen/margin_for_lokomotiv_logo"
-                    android:background="@mipmap/fk_lokomotiv" />
+                    android:background="@mipmap/fk_lokomotiv"
+                    android:contentDescription="@string/image_of_lokomotiv" />
 
             </LinearLayout>
 
@@ -67,7 +70,8 @@
                     android:gravity="center"
                     android:layout_marginRight="@dimen/margin_30"
                     android:textColor="@color/colorBlack"
-                    android:textSize="@dimen/txt_size" />
+                    android:textSize="@dimen/txt_size"
+                    android:layout_marginEnd="@dimen/margin_30" />
 
                 <TextView
                     android:id="@+id/textView"
@@ -86,7 +90,8 @@
                     android:gravity="center"
                     android:layout_marginLeft="@dimen/margin_30"
                     android:textColor="@color/colorBlack"
-                    android:textSize="@dimen/txt_size" />
+                    android:textSize="@dimen/txt_size"
+                    android:layout_marginStart="@dimen/margin_30" />
             </LinearLayout>
 
             <LinearLayout
@@ -97,23 +102,25 @@
 
                 <Button
                     android:id="@+id/Spartak"
-                    android:layout_width="300dp"
+                    android:layout_width="@dimen/button_width"
                     android:layout_height="@dimen/height_for_button_team"
                     android:gravity="center"
                     android:onClick="onClickAddSpartak"
                     android:padding="@dimen/padding_for_button_teams"
                     android:text="@string/spartak"
-                    android:textSize="@dimen/ts_20" />
+                    android:textSize="@dimen/ts_20"
+                    tools:ignore="ButtonStyle" />
 
                 <Button
                     android:id="@+id/Loko"
-                    android:layout_width="300dp"
+                    android:layout_width="@dimen/button_width"
                     android:layout_height="@dimen/height_for_button_team"
                     android:gravity="center"
                     android:onClick="onClickAddLokomotiv"
                     android:padding="@dimen/padding_for_button_teams"
                     android:text="@string/lokomotiv"
-                    android:textSize="@dimen/ts_20" />
+                    android:textSize="@dimen/ts_20"
+                    tools:ignore="ButtonStyle" />
 
             </LinearLayout>
 
