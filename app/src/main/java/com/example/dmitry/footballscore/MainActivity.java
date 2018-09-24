@@ -15,6 +15,17 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String TAG = "MainActivity";
 
+    @SuppressLint("SetTextI18n")
+    @Override
+    protected void onResume() {
+        super.onResume();
+        TextView spartakView = findViewById(R.id.spartak_score);
+        spartakView.setText(spartak.toString());
+
+        TextView lokoView = findViewById(R.id.loko_score);
+        lokoView.setText(loko.toString());
+    }
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
