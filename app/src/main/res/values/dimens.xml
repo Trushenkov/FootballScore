@@ -17,4 +17,5 @@
     <dimen name="height_for_button_team">65dp</dimen>
     <dimen name="margin_10">10dp</dimen>
     <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
 </resources>
