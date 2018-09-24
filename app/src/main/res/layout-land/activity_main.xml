@@ -65,6 +65,7 @@
                     android:layout_height="100dp"
                     android:background="@drawable/ground"
                     android:gravity="center"
+                    android:layout_marginRight="@dimen/margin_30"
                     android:textColor="@color/colorBlack"
                     android:textSize="@dimen/txt_size" />
 
@@ -83,6 +84,7 @@
                     android:layout_height="@dimen/height_100"
                     android:background="@drawable/ground"
                     android:gravity="center"
+                    android:layout_marginLeft="@dimen/margin_30"
                     android:textColor="@color/colorBlack"
                     android:textSize="@dimen/txt_size" />
             </LinearLayout>
@@ -95,7 +97,7 @@
 
                 <Button
                     android:id="@+id/Spartak"
-                    android:layout_width="@dimen/width_for_button_team"
+                    android:layout_width="300dp"
                     android:layout_height="@dimen/height_for_button_team"
                     android:gravity="center"
                     android:onClick="onClickAddSpartak"
@@ -105,7 +107,7 @@
 
                 <Button
                     android:id="@+id/Loko"
-                    android:layout_width="@dimen/width_for_button_team"
+                    android:layout_width="300dp"
                     android:layout_height="@dimen/height_for_button_team"
                     android:gravity="center"
                     android:onClick="onClickAddLokomotiv"
