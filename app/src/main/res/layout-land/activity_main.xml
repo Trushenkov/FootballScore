@@ -122,7 +122,7 @@
             android:layout_width="@dimen/width_for_button_team"
             android:layout_height="@dimen/height_for_button_team"
             android:layout_gravity="center"
-            android:layout_marginTop="@dimen/margin_20"
+            android:layout_marginTop="@dimen/margin_5"
             android:onClick="onClickButtonClear"
             android:text="@string/clear_score"
             android:textSize="@dimen/ts_20" />
