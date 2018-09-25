@@ -5,7 +5,7 @@
     <string name="spartak">FC SPARTAK</string>
     <string name="lokomotiv">FC LOKOMOTIV</string>
     <string name="score_of_match">The score of match</string>
-    <string name="clear_score">Clear score</string>
+    <string name="reset_score">Reset score</string>
     <string name="image_of_spartak">Image of Spartak</string>
     <string name="image_of_lokomotiv">Image of Lokomotiv</string>
 </resources>
