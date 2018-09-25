@@ -133,7 +133,7 @@
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/mt_for_clear_button"
                     android:onClick="onClickButtonClear"
-                    android:text="@string/clear_score" />
+                    android:text="@string/reset_score" />
 
             </LinearLayout>
         </LinearLayout>
