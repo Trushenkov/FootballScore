@@ -35,11 +35,11 @@
                 android:id="@+id/spartak_logotype"
                 android:layout_width="@dimen/width_100"
                 android:layout_height="@dimen/height_100"
-                android:layout_marginEnd="@dimen/margin_for_spartak_logo"
-                android:layout_weight="1"
                 android:background="@mipmap/fk_spartak"
                 android:contentDescription="@string/image_of_spartak"
-                android:layout_marginRight="@dimen/margin_for_spartak_logo" />
+                android:layout_marginRight="@dimen/margin_30"
+                android:layout_marginLeft="@dimen/margin_50"
+                tools:ignore="RtlHardcoded" />
 
             <TextView
                 android:id="@+id/spartak_score"
@@ -76,10 +76,11 @@
                 android:id="@+id/lokomotiv_logotype"
                 android:layout_width="@dimen/width_100"
                 android:layout_height="@dimen/height_100"
-                android:layout_marginStart="@dimen/margin_for_lokomotiv_logo"
                 android:background="@mipmap/fk_lokomotiv"
+                android:layout_marginLeft="@dimen/margin_30"
+                android:layout_marginRight="@dimen/margin_50"
                 android:contentDescription="@string/image_of_lokomotiv"
-                android:layout_marginLeft="@dimen/margin_for_lokomotiv_logo" />
+                tools:ignore="RtlHardcoded" />
         </LinearLayout>
 
         <LinearLayout
