@@ -129,7 +129,7 @@
                 <Button
                     android:id="@+id/clear"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
+                    android:layout_height="@dimen/height_for_button_team"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/mt_for_clear_button"
                     android:onClick="onClickButtonClear"
