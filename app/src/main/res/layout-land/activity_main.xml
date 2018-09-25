@@ -77,7 +77,6 @@
                 android:layout_width="@dimen/width_100"
                 android:layout_height="@dimen/height_100"
                 android:layout_marginStart="@dimen/margin_for_lokomotiv_logo"
-                android:layout_weight="1"
                 android:background="@mipmap/fk_lokomotiv"
                 android:contentDescription="@string/image_of_lokomotiv"
                 android:layout_marginLeft="@dimen/margin_for_lokomotiv_logo" />
@@ -124,7 +123,7 @@
             android:layout_gravity="center"
             android:layout_marginTop="@dimen/margin_5"
             android:onClick="onClickButtonClear"
-            android:text="@string/clear_score"
+            android:text="@string/reset_score"
             android:textSize="@dimen/ts_20" />
 
     </LinearLayout>
