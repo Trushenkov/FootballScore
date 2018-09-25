@@ -11,7 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        tools:ignore="UselessParent">
 
         <TextView
             android:id="@+id/textView4"
@@ -37,17 +38,19 @@
                 android:layout_marginEnd="@dimen/margin_for_spartak_logo"
                 android:layout_weight="1"
                 android:background="@mipmap/fk_spartak"
-                android:contentDescription="@string/image_of_spartak" />
+                android:contentDescription="@string/image_of_spartak"
+                android:layout_marginRight="@dimen/margin_for_spartak_logo" />
 
             <TextView
                 android:id="@+id/spartak_score"
-                android:layout_width="100dp"
-                android:layout_height="100dp"
+                android:layout_width="@dimen/width_100"
+                android:layout_height="@dimen/height_100"
                 android:layout_marginEnd="@dimen/margin_30"
                 android:background="@drawable/ground"
                 android:gravity="center"
                 android:textColor="@color/colorBlack"
-                android:textSize="@dimen/txt_size" />
+                android:textSize="@dimen/txt_size"
+                android:layout_marginRight="@dimen/margin_30" />
 
             <TextView
                 android:id="@+id/textView"
@@ -76,7 +79,8 @@
                 android:layout_marginStart="@dimen/margin_for_lokomotiv_logo"
                 android:layout_weight="1"
                 android:background="@mipmap/fk_lokomotiv"
-                android:contentDescription="@string/image_of_lokomotiv" />
+                android:contentDescription="@string/image_of_lokomotiv"
+                android:layout_marginLeft="@dimen/margin_for_lokomotiv_logo" />
         </LinearLayout>
 
         <LinearLayout
@@ -87,7 +91,7 @@
 
             <Button
                 android:id="@+id/Spartak"
-                android:layout_width="220dp"
+                android:layout_width="@dimen/width_for_button_team"
                 android:layout_height="@dimen/height_for_button_team"
                 android:layout_marginRight="@dimen/margin_50"
                 android:gravity="center"
@@ -95,11 +99,12 @@
                 android:padding="@dimen/padding_for_button_teams"
                 android:text="@string/spartak"
                 android:textSize="@dimen/ts_20"
-                tools:ignore="ButtonStyle" />
+                tools:ignore="ButtonStyle"
+                android:layout_marginEnd="@dimen/margin_50" />
 
             <Button
                 android:id="@+id/Loko"
-                android:layout_width="220dp"
+                android:layout_width="@dimen/width_for_button_team"
                 android:layout_height="@dimen/height_for_button_team"
                 android:layout_marginLeft="@dimen/margin_50"
                 android:gravity="center"
@@ -107,16 +112,17 @@
                 android:padding="@dimen/padding_for_button_teams"
                 android:text="@string/lokomotiv"
                 android:textSize="@dimen/ts_20"
-                tools:ignore="ButtonStyle" />
+                tools:ignore="ButtonStyle"
+                android:layout_marginStart="@dimen/margin_50" />
 
         </LinearLayout>
 
         <Button
             android:id="@+id/clear"
-            android:layout_width="220dp"
+            android:layout_width="@dimen/width_for_button_team"
             android:layout_height="@dimen/height_for_button_team"
             android:layout_gravity="center"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="@dimen/margin_20"
             android:onClick="onClickButtonClear"
             android:text="@string/clear_score"
             android:textSize="@dimen/ts_20" />
