@@ -16,7 +16,7 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical" >
+            android:orientation="vertical">
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -70,8 +70,8 @@
 
                     <TextView
                         android:id="@+id/spartak_score"
-                        android:layout_width="100dp"
-                        android:layout_height="100dp"
+                        android:layout_width="@dimen/width_100"
+                        android:layout_height="@dimen/height_100"
                         android:background="@drawable/ground"
                         android:gravity="center"
                         android:textColor="@color/colorBlack"
