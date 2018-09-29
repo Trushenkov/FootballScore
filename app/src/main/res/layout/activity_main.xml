@@ -37,6 +37,7 @@
                         android:layout_height="@dimen/height_100"
                         android:layout_marginEnd="@dimen/margin_for_spartak_logo"
                         android:layout_marginRight="@dimen/margin_for_spartak_logo"
+                        android:layout_weight="0,5"
                         android:background="@mipmap/fk_spartak"
                         android:contentDescription="@string/image_of_spartak" />
 
@@ -46,6 +47,7 @@
                         android:layout_height="@dimen/height_100"
                         android:layout_marginLeft="@dimen/margin_for_lokomotiv_logo"
                         android:layout_marginStart="@dimen/margin_for_lokomotiv_logo"
+                        android:layout_weight="0,5"
                         android:background="@mipmap/fk_lokomotiv"
                         android:contentDescription="@string/image_of_lokomotiv" />
 
@@ -72,6 +74,7 @@
                         android:id="@+id/spartak_score"
                         android:layout_width="@dimen/width_100"
                         android:layout_height="@dimen/height_100"
+                        android:layout_weight="0,3"
                         android:background="@drawable/ground"
                         android:gravity="center"
                         android:textColor="@color/colorBlack"
@@ -81,6 +84,7 @@
                         android:id="@+id/textView"
                         android:layout_width="@dimen/width_second_dot"
                         android:layout_height="wrap_content"
+                        android:layout_weight="0,2"
                         android:gravity="center"
                         android:text="@string/second_dot"
                         android:textColor="@color/colorBlack"
@@ -90,6 +94,7 @@
                         android:id="@+id/loko_score"
                         android:layout_width="@dimen/width_100"
                         android:layout_height="@dimen/height_100"
+                        android:layout_weight="0,3"
                         android:background="@drawable/ground"
                         android:gravity="center"
                         android:textColor="@color/colorBlack"
@@ -106,6 +111,7 @@
                         android:id="@+id/Spartak"
                         android:layout_width="@dimen/width_for_button_team"
                         android:layout_height="@dimen/height_for_button_team"
+                        android:layout_weight="0,5"
                         android:gravity="center"
                         android:onClick="onClickAddSpartak"
                         android:padding="@dimen/padding_for_button_teams"
@@ -117,6 +123,7 @@
                         android:id="@+id/Loko"
                         android:layout_width="@dimen/width_for_button_team"
                         android:layout_height="@dimen/height_for_button_team"
+                        android:layout_weight="0,5"
                         android:gravity="center"
                         android:onClick="onClickAddLokomotiv"
                         android:padding="@dimen/padding_for_button_teams"
@@ -132,6 +139,7 @@
                     android:layout_height="@dimen/height_for_button_team"
                     android:layout_gravity="center"
                     android:layout_marginTop="@dimen/mt_for_clear_button"
+                    android:layout_weight="1"
                     android:onClick="onClickButtonClear"
                     android:text="@string/reset_score" />
 
