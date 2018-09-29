@@ -35,3 +35,7 @@
 ![horizontal_english](https://github.com/Trushenkov/FootballScore/blob/master/app/src/main/res/mipmap-hdpi/horizontal_english.PNG)
 
 ## Результаты работы приложения на реальном устройстве
+
+![screen_vertical](https://github.com/Trushenkov/FootballScore/blob/master/app/src/main/res/mipmap-hdpi/screen_vertical.jpg) 
+
+![screen_horizontal](https://github.com/Trushenkov/FootballScore/blob/master/app/src/main/res/mipmap-hdpi/screen_horizontal.jpg)
