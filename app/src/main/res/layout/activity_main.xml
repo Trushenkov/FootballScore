@@ -49,7 +49,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"
+        android:layout_weight="0.45"
         android:orientation="horizontal">
 
         <TextView
@@ -58,6 +58,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@drawable/ground"
+            android:gravity="center"
             android:textColor="@color/colorBlack"
             android:textSize="@dimen/txt_size"
             tools:ignore="NestedWeights" />
