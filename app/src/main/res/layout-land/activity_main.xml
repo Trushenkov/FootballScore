@@ -38,6 +38,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
+            android:gravity="center"
             android:background="@drawable/ground"
             android:textColor="@color/colorBlack"
             android:textSize="@dimen/txt_size" />
