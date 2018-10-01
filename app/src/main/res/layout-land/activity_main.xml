@@ -31,7 +31,7 @@
             android:layout_weight="1"
             android:background="@mipmap/fk_spartak"
             android:contentDescription="@string/image_of_spartak"
-            tools:ignore="RtlHardcoded" />
+            tools:ignore="NestedWeights,RtlHardcoded" />
 
         <TextView
             android:id="@+id/spartak_score"
@@ -88,7 +88,7 @@
             android:onClick="onClickAddSpartak"
             android:text="@string/spartak"
             android:textSize="@dimen/ts_20"
-            tools:ignore="ButtonStyle" />
+            tools:ignore="ButtonStyle,NestedWeights" />
 
         <Button
             android:id="@+id/Loko"
