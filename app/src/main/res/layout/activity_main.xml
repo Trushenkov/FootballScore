@@ -91,25 +91,22 @@
 
         <Button
             android:id="@+id/Spartak"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:gravity="center"
             android:onClick="onClickAddSpartak"
             android:text="@string/spartak"
-            android:textSize="@dimen/ts_20"
-            tools:ignore="ButtonStyle" />
+            android:textSize="@dimen/ts_20" />
 
         <Button
             android:id="@+id/Loko"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:onClick="onClickAddLokomotiv"
             android:text="@string/lokomotiv"
-            android:textSize="@dimen/ts_20"
-            tools:ignore="ButtonStyle" />
+            android:textSize="@dimen/ts_20" />
 
     </LinearLayout>
 
