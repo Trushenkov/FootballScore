@@ -82,7 +82,7 @@
         <Button
             android:id="@+id/Spartak"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:onClick="onClickAddSpartak"
@@ -93,7 +93,7 @@
         <Button
             android:id="@+id/Loko"
             android:layout_width="0dp"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="center"
             android:onClick="onClickAddLokomotiv"
