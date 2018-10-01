@@ -19,7 +19,8 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:background="@mipmap/fk_spartak"
-            android:contentDescription="@string/image_of_spartak" />
+            android:contentDescription="@string/image_of_spartak"
+            tools:ignore="NestedWeights" />
 
         <Space
             android:layout_width="0dp"
@@ -58,7 +59,8 @@
             android:layout_weight="1"
             android:background="@drawable/ground"
             android:textColor="@color/colorBlack"
-            android:textSize="@dimen/txt_size" />
+            android:textSize="@dimen/txt_size"
+            tools:ignore="NestedWeights" />
 
         <TextView
             android:id="@+id/textView"
@@ -96,7 +98,8 @@
             android:layout_weight="1"
             android:onClick="onClickAddSpartak"
             android:text="@string/spartak"
-            android:textSize="@dimen/ts_20" />
+            android:textSize="@dimen/ts_20"
+            tools:ignore="ButtonStyle,NestedWeights" />
 
         <Button
             android:id="@+id/Loko"
@@ -106,7 +109,8 @@
             android:gravity="center"
             android:onClick="onClickAddLokomotiv"
             android:text="@string/lokomotiv"
-            android:textSize="@dimen/ts_20" />
+            android:textSize="@dimen/ts_20"
+            tools:ignore="ButtonStyle" />
 
     </LinearLayout>
 
